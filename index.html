@@ -333,7 +333,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Projects</h2>
-					<p>For a full portfolio of all of my work, click <a target="_blank" href="images/portfolio.pdf" style="color: #82b4ff;">here</a>.</p>
+					<!--<p>For a full portfolio of all of my work, click <a target="_blank" href="images/portfolio.pdf" style="color: #82b4ff;">here</a>.</p> -->
 				</div>
 			</div>
 			<div class="row">
@@ -341,8 +341,16 @@
 					<button onclick="showModal(1)" class="work" style="background-image: url(images/sensus/0.JPG);">
 						<div class="desc" >
 							<h3>Sensus - Product Design (2.S009)</h3>
-							<span>Designing and fabricating an automated testing device for patients at risk
+							<span>Designed and fabricated an automated testing device for patients at risk
 							for Peripheral Neuropathy</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<button onclick="showModal(14)" class="work" style="background-image: url(images/74/0.jpg);">
+						<div class="desc" >
+							<h3>Lizard Inspired Robotic Leg</h3>
+							<span>Designed and simulated a robotic limb based off of a desert lizard to optimize locomotion in sand </span>
 						</div>
 					</a>
 				</div>
@@ -835,6 +843,28 @@
 	  	<p align="center"><iframe src="images/plant/report.pdf" width="800" height="500"></iframe></p>
 
 	  </div>
+	</div>
+
+	<div id="modal14" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+	    <span onclick="closeModal(14)" class="close">&times;</span>
+	    <h2>Lizard Inspired Robotic Leg - (2.74)</h2>
+	    <hr>
+	    <p>I designed and conducted tests on a robotic leg alongside three other students. We based the limb design to
+		mimic a Shovel-Snouted Lizard which can travel a distance of over 20 times its body length in a second.</p>
+	  	<p>The hardware consisted of a 2 DOF robotic limb that runs on a belt drive system which is attached to a gantry
+		that allows it to freely travel in one direction. When the limb digs into the sand, the robot is propelled forward.</p>
+		<p align="center"><img src="images/74/1.jpg" width="400"></p>
+	  	<p>I built a forward Euler simulation model in MATLAB which models the robot kinematics along with its interactions
+		with the sand. I then ran an optimization algorithm to find the best leg angle and joint stiffness to get the highest
+		velocity when travelling through sand. Using this information, we tested our optimal results on our hardware
+		setup to see if it matched.</p>
+	  	<p align="center"><iframe src="images/74/poster.pdf" width="1100" height="700"></iframe></p>
+
+	  </div>
+
 
 	</div>
 	
