@@ -60,6 +60,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="-227" key="Vcs.Push.Dialog.v2" timestamp="1610512680138">
