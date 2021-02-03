@@ -186,6 +186,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h3 {
   font-size: 16px;
+  margin-bottom: 5%;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
@@ -1351,8 +1352,8 @@ input[type="text"] {
 }
 
 .section-links{
-  position: absolute;
-  bottom: 10%;
+  position: relative;
+  bottom: 5%;
   width: 100%;
 }
 
